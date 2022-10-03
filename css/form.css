@@ -1,0 +1,37 @@
+.maincontainerform {
+    background-color: rgb(94, 101, 101);
+    padding-left: 325px;
+    padding-right: 210px;
+    padding-top: 65px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.containerform {
+    display: inline-flex;
+    color: rgb(6, 6, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(59, 63, 63, 0.245);
+    border-style: double;
+    padding: 50px;
+    width: 650px;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    width: 250px;
+    text-align:left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+fieldset {
+    width: 200px;
+    color: rgb(206, 99, 99);
+}
+
+.box div label a {
+    color: rgb(206, 99, 99);
+}

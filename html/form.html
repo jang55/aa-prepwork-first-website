@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application-for-club</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="../index.html">Home page</a>
+        <a href="form.html">Application</a>
+        <a href="links.html">Location</a>
+        <a href="images.html">Images</a>
+    </div>
+    <div class="maincontainerform">
+        <div class="containerform">
+            <fieldset action="/form-handling-url" method="post">
+                <legend>Club application</legend>
+
+                <div class="box">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" required="required">
+                </div>
+
+                <div class="box">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="last_name" id="lastName" required="required">
+                </div>
+
+                <div class="box">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email_address" id="email" required="required">
+                </div>
+                <br>
+
+                <div class="box">
+                    <label for="birthDate">Birthday:</label>
+                    <input type="date" name="birth_date" id="birthDate" required="required">
+                </div>
+
+                <br>
+
+                <div class="box">
+                    <label for="selfinfo">What you like about fishing:</label>
+                    <textarea name="self_info" id="selfinfo" required="required"></textarea>
+                </div>
+
+                <br>
+
+                <div class="box">
+                    <div>
+                        <input type="checkbox" name="true_box" id="trueBox" required="required">
+                        <span>
+                            <label for="trueBox">Agree that all information is true and correct</label>
+                        </span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="terms_condition" id="termsCondition" required="required">
+                        <span>
+                            <label for="termsCondtion"> <a href="">Agree to terms and conditions</a></label>
+                        </span>
+                    </div>
+                </div>
+
+                <br>
+
+                <div id="submitButton" class="box">
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <footer>
+                <a href="">About us</a>
+                <a href="">Contact</a>
+                <a href="">Terms of Use</a>
+                <a href="">FAQs</a>
+                <a href="">Privacy Policy</a>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

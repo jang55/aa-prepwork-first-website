@@ -1,0 +1,14 @@
+.containerlinks ul li a {
+    color: rgb(206, 99, 99)
+}
+
+.containerlinks {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(59, 63, 63, 0.245);
+    border-style: double;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 50px;
+}

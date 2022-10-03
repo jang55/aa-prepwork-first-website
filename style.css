@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    border-top: 6px solid black;
+    border-bottom: 6px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    font-weight: bolder;
+    margin-top: 80px;
+    background-color: rgb(81, 217, 97);
+
+}
+
+.maincontainer {
+    background-color: rgb(94, 101, 101);
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.headone {
+    font-style: italic;
+    color: rgb(24, 70, 24);
+    text-align: center;
+}
+
+.container {
+    color: rgb(6, 6, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(59, 63, 63, 0.245);
+    border-style: double;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.father-daughter-image {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 45px;
+    display: flex;
+    margin-left: 345px;
+}
+.father-daughter-image img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 400px;
+    margin-top: 20px;
+}
